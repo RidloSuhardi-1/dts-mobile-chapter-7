@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         lvItem.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(MainActivity.this, "Negara yang dipilih : " + listNegara.get(position).getNegara() + ", " + listNegara.get(position).getIbuKota(), Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, "Negara yang dipilih : " + listNegara.get(position).getNegara() + ", Ibu Kota : " + listNegara.get(position).getIbuKota(), Toast.LENGTH_LONG).show();
             }
         });
     }
